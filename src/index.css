@@ -7,3 +7,9 @@
     @apply !text-gray-500;
   }
 }
+
+@layer components {
+  .btn {
+    @apply border border-gray-700 px-6 py-2 hover:bg-gray-900 hover:text-white;
+  }
+}
