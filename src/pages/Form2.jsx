@@ -2,6 +2,7 @@ import InputField from "../components/InputField";
 import SelectField from "../components/SelectField";
 import StepBtn from "../components/Step&Btn";
 import ServiceItem from "../components/ServiceItem";
+import UploadField from "../components/UploadField";
 
 const Form1 = () => {
   return (
@@ -22,6 +23,7 @@ const Form1 = () => {
       </div>
       <SelectField title={"Your budget"} />
       <InputField title={"About the project"} />
+      <UploadField />
       <StepBtn nextHref="/form3" pageNo={2} />
     </div>
   );

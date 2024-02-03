@@ -1,6 +1,7 @@
 import InputFieldwithIcon from "../components/InputFieldwithIcon";
 import SelectField from "../components/SelectField";
 import StepBtn from "../components/Step&Btn";
+import UploadField from "../components/UploadField";
 
 const Form1 = () => {
   return (
@@ -18,6 +19,7 @@ const Form1 = () => {
         placeholder={"dd/mm/yy"}
         icon={"fa-regular fa-calendar"}
       />
+      <UploadField />
       <StepBtn nextHref="/" pageNo={4} />
     </div>
   );

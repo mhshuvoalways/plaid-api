@@ -1,6 +1,7 @@
 import InputField from "../components/InputField";
 import InputFieldwithIcon from "../components/InputFieldwithIcon";
 import StepBtn from "../components/Step&Btn";
+import UploadField from "../components/UploadField";
 
 const Form1 = () => {
   return (
@@ -18,6 +19,7 @@ const Form1 = () => {
         icon="fa-regular fa-envelope"
         placeholder={"hello@relume.io"}
       />
+      <UploadField />
       <StepBtn nextHref="/form2" pageNo="1" />
     </div>
   );

@@ -1,6 +1,7 @@
 import ComSizeItem from "../components/ComSizeItem";
 import InputField from "../components/InputField";
 import StepBtn from "../components/Step&Btn";
+import UploadField from "../components/UploadField";
 
 const Form1 = () => {
   return (
@@ -23,6 +24,7 @@ const Form1 = () => {
         </div>
       </div>
       <InputField title={"Website link"} />
+      <UploadField />
       <StepBtn nextHref="/form4" pageNo={3} />
     </div>
   );
